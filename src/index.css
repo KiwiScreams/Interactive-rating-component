@@ -1,0 +1,24 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+:root
+{
+  --white-clr: #fff;
+  --black-clr: #000;
+  --orange-clr: #FC7614;
+  --medium-gray-clr: #7C8798;
+  --dark-blue-clr: #262E38;
+  --light-gray-clr: #969FAD;
+  --very-darl-blue-clr: #131518;
+  --font-weight-700: 700;
+  --font-weight-400: 400;
+  --font-size-28: 28px;
+  --font-size-16: 16px;
+  --line-height-24: 24px;
+  --letter-spacing-2: 2px;
+}
