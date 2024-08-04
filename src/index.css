@@ -121,3 +121,27 @@ button, a
   background-color: var(--medium-gray-clr);
   color: var(--white-clr);
 }
+.container .thankImage
+{
+  margin: auto;
+  display: block;
+  margin-bottom: 32px;
+}
+.container .center
+{
+  text-align: center;
+}
+.container .selected-text
+{
+  color: var(--orange-clr);
+  font-weight: var(--font-weight-400);
+  height: 32px;
+  background-color: var(--dark-blue-clr);
+  width: 194px;
+  margin: auto;
+  margin-bottom: 32px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

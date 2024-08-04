@@ -1,5 +1,6 @@
 import { useState } from "react";
 import star from "./assets/images/icon-star.svg";
+import Thank from "./Thank";
 function App() {
   const [selectedRating, setSelectedRating] = useState(null);
   const handleRatingClick = (rating) => {
@@ -7,7 +8,7 @@ function App() {
   };
   return (
     <>
-      <section className="container">
+      {/* <section className="container">
         <div className="star-image">
           <img src={star} alt="icon-star" />
         </div>
@@ -28,7 +29,8 @@ function App() {
           ))}
         </div>
         <button>SUBMIT</button>
-      </section>
+      </section> */}
+      <Thank />
     </>
   );
 }
