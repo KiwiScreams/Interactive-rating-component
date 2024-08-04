@@ -39,7 +39,7 @@ body
 {
   background: linear-gradient(to bottom, #232A34, #181E27);
   width: 412px;
-  /* height: 416px; */
+  height: 416px;
   padding: 32px;
   border-radius: 25px;
 }
