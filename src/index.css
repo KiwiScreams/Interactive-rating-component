@@ -39,8 +39,7 @@ body
 {
   background: linear-gradient(to bottom, #232A34, #181E27);
   width: 412px;
-  height: 416px;
-  aspect-ratio: 1;
+  /* height: 416px; */
   padding: 32px;
   border-radius: 25px;
 }
@@ -63,4 +62,51 @@ button, a
 {
   background-color: var(--white-clr);
   color: var(--orange-clr);
+}
+.container .star-image
+{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--dark-blue-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container h2
+{
+  font-size: var(--font-size-28);
+  color: var(--white-clr);
+  font-weight: var(--font-weight-700);
+  margin-bottom: 8px;
+}
+.container p.text
+{
+  color: var(--light-gray-clr);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  line-height: var(--line-height-24);
+  margin-bottom: 24px;
+}
+.container .numbers-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.container .numbers-container p
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--medium-gray-clr);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-700);
+  background-color: var(--dark-blue-clr);
 }
