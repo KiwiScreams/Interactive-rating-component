@@ -5,6 +5,9 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  border: none;
+  outline: none;
+  transition: 0.3s;
 }
 :root
 {
@@ -21,4 +24,43 @@
   --font-size-16: 16px;
   --line-height-24: 24px;
   --letter-spacing-2: 2px;
+}
+body
+{
+  background-color: var(--very-darl-blue-clr);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container
+{
+  background: linear-gradient(to bottom, #232A34, #181E27);
+  width: 412px;
+  height: 416px;
+  aspect-ratio: 1;
+  padding: 32px;
+  border-radius: 25px;
+}
+button, a
+{
+  cursor: pointer;
+}
+.container button
+{
+  background-color: var(--orange-clr);
+  width: 100%;
+  height: 46px;
+  color: var(--white-clr);
+  font-weight: var(--font-weight-700);
+  letter-spacing: var(--letter-spacing-2);
+  font-size: var(--font-size-16);
+  border-radius: 50px;
+}
+.container button:hover
+{
+  background-color: var(--white-clr);
+  color: var(--orange-clr);
 }
