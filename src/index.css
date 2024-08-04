@@ -145,3 +145,13 @@ button, a
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 450px)
+{
+  .container
+  {
+    width: 90%;
+    padding: 24px;
+    margin: auto;
+    height: auto;
+  }
+}
