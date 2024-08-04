@@ -27,11 +27,15 @@ function App() {
             feedback is appreciated to help us improve our offering!
           </p>
           <div className="numbers-container">
-            <p onClick={() => handleRatingClick(1)}>1</p>
-            <p onClick={() => handleRatingClick(2)}>2</p>
-            <p onClick={() => handleRatingClick(3)}>3</p>
-            <p onClick={() => handleRatingClick(4)}>4</p>
-            <p onClick={() => handleRatingClick(5)}>5</p>
+            {[1, 2, 3, 4, 5].map((rating) => (
+              <p
+                key={rating}
+                onClick={() => handleRatingClick(rating)}
+                className={selectedRating === rating ? "active" : ""}
+              >
+                {rating}
+              </p>
+            ))}
           </div>
           <button onClick={handleSubmit}>SUBMIT</button>
         </section>
